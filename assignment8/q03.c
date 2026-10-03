@@ -11,7 +11,7 @@ int main()
     printf("Enter second string: ");
     fgets(str2, sizeof(str2), stdin);
 
-    /* Remove newline from first string */
+    
     while(str1[i] != '\0')
     {
         if(str1[i] == '\n')
@@ -22,7 +22,7 @@ int main()
         i++;
     }
 
-    /* Add second string at the end */
+    
     while(str2[j] != '\0' && str2[j] != '\n')
     {
         str1[i] = str2[j];
